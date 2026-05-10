@@ -1,0 +1,155 @@
+{
+  "ABS-General-Grade": {
+    "polymer_type": "ABS",
+    "description": "通用级丙烯腈-丁二烯-苯乙烯共聚物",
+    "physical": {
+      "density_g_cm3": 1.04,
+      "mfi_g_10min": [5, 30],
+      "shrinkage_percent": [0.4, 0.7]
+    },
+    "thermal": {
+      "melt_temp_range": [200, 260],
+      "mold_temp_range": [40, 80],
+      "hdt_at_1.8MPa": 85,
+      "glass_transition_temp": 105
+    },
+    "processing": {
+      "drying_temp_c": 80,
+      "drying_time_h": 3,
+      "max_moisture_percent": 0.1,
+      "inject_pressure_mpa": [70, 140],
+      "hold_pressure_ratio": 0.50,
+      "back_pressure_mpa": [5, 15],
+      "max_shear_rate_1_s": 50000
+    }
+  },
+  "PC-General-Grade": {
+    "polymer_type": "PC",
+    "description": "通用级聚碳酸酯 (高粘度)",
+    "physical": {
+      "density_g_cm3": 1.20,
+      "mfi_g_10min": [5, 20],
+      "shrinkage_percent": [0.5, 0.7]
+    },
+    "thermal": {
+      "melt_temp_range": [270, 320],
+      "mold_temp_range": [80, 120],
+      "hdt_at_1.8MPa": 130
+    },
+    "processing": {
+      "drying_temp_c": 120,
+      "drying_time_h": 4,
+      "max_moisture_percent": 0.02,
+      "inject_pressure_mpa": [100, 180],
+      "hold_pressure_ratio": 0.70,
+      "back_pressure_mpa": [5, 20],
+      "max_shear_rate_1_s": 40000
+    }
+  },
+  "PA66-General-Grade": {
+    "polymer_type": "PA66",
+    "description": "通用级聚酰胺66 (尼龙66)",
+    "physical": {
+      "density_g_cm3": 1.14,
+      "mfi_g_10min": [10, 60],
+      "shrinkage_percent": [1.0, 2.5]
+    },
+    "thermal": {
+      "melt_temp_range": [260, 300],
+      "mold_temp_range": [60, 100],
+      "hdt_at_1.8MPa": 80
+    },
+    "processing": {
+      "drying_temp_c": 80,
+      "drying_time_h": 4,
+      "max_moisture_percent": 0.10,
+      "inject_pressure_mpa": [80, 160],
+      "hold_pressure_ratio": 0.50,
+      "back_pressure_mpa": [5, 15],
+      "max_shear_rate_1_s": 60000
+    }
+  },
+  "PP-Homopolymer": {
+    "polymer_type": "PP",
+    "description": "等规聚丙烯均聚物",
+    "physical": {
+      "density_g_cm3": 0.90,
+      "mfi_g_10min": [2, 50],
+      "shrinkage_percent": [1.0, 2.5]
+    },
+    "thermal": {
+      "melt_temp_range": [200, 280],
+      "mold_temp_range": [20, 60],
+      "hdt_at_1.8MPa": 65
+    },
+    "processing": {
+      "inject_pressure_mpa": [80, 160],
+      "hold_pressure_ratio": 0.40,
+      "back_pressure_mpa": [5, 20],
+      "max_shear_rate_1_s": 100000
+    }
+  },
+  "POM-General-Grade": {
+    "polymer_type": "POM",
+    "description": "聚甲醛 (共聚级)",
+    "physical": {
+      "density_g_cm3": 1.41,
+      "mfi_g_10min": [5, 25],
+      "shrinkage_percent": [1.8, 3.0]
+    },
+    "thermal": {
+      "melt_temp_range": [180, 230],
+      "mold_temp_range": [60, 120],
+      "hdt_at_1.8MPa": 105
+    },
+    "processing": {
+      "inject_pressure_mpa": [80, 140],
+      "hold_pressure_ratio": 0.60,
+      "back_pressure_mpa": [5, 10],
+      "max_shear_rate_1_s": 40000
+    }
+  },
+  "HDPE-General-Grade": {
+    "polymer_type": "HDPE",
+    "description": "高密度聚乙烯",
+    "physical": {
+      "density_g_cm3": 0.95,
+      "mfi_g_10min": [2, 20],
+      "shrinkage_percent": [1.2, 2.5]
+    },
+    "thermal": {
+      "melt_temp_range": [220, 280],
+      "mold_temp_range": [20, 60],
+      "hdt_at_1.8MPa": 50
+    },
+    "processing": {
+      "inject_pressure_mpa": [80, 140],
+      "hold_pressure_ratio": 0.30,
+      "back_pressure_mpa": [5, 20],
+      "max_shear_rate_1_s": 80000
+    }
+  },
+  "PMMA-General-Grade": {
+    "polymer_type": "PMMA",
+    "description": "聚甲基丙烯酸甲酯 (亚克力)",
+    "physical": {
+      "density_g_cm3": 1.18,
+      "mfi_g_10min": [2, 15],
+      "shrinkage_percent": [0.2, 0.8]
+    },
+    "thermal": {
+      "melt_temp_range": [220, 260],
+      "mold_temp_range": [50, 90],
+      "hdt_at_1.8MPa": 95
+    },
+    "processing": {
+      "drying_temp_c": 80,
+      "drying_time_h": 3,
+      "max_moisture_percent": 0.05,
+      "inject_pressure_mpa": [80, 150],
+      "hold_pressure_ratio": 0.60,
+      "back_pressure_mpa": [5, 15],
+      "max_shear_rate_1_s": 40000
+    }
+  }
+}

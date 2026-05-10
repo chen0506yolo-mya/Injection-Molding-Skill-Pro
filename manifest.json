@@ -1,0 +1,19 @@
+{
+  "skill_id": "poly_master_2026_pro",
+  "name": "注塑成型全栈 AI 专家系统",
+  "version": "3.5.0-Release",
+  "developer_tier": "Expert",
+  "description": "集成 CAMPUS 标准材料库、简化 Navier-Stokes 充填模拟器及闭环工艺优化引擎",
+  "capabilities": [
+    "dynamic_physics_simulation",
+    "material_database_indexing",
+    "multivariable_process_optimization",
+    "automated_troubleshooting_logic"
+  ],
+  "entry_point": "instructions.md",
+  "dependencies": {
+    "knowledge_base": "knowledge/material_db.json",
+    "calculation_engine": "tools/physics_engine.py",
+    "SOP_documentation": "knowledge/troubleshooting_sop.md"
+  }
+}
